@@ -1,0 +1,147 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(hsl(0, 100%, 74%, 0.4), hsl(0, 100%, 74%, 0.4)), url(bg-intro-desktop.png);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box1{
+    padding-right: 40px;
+    width: 600px;
+    margin-left: 10px;
+    /* width: 35px; */
+    /* margin: auto; */
+}
+.box2{
+    margin-left: 0;
+}
+.box3{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 25px;
+    /* margin-left: 10px; */
+    /* width: 500px; */
+    box-shadow: 1px 8px 3px rgba(130, 130, 130, 0.35);
+    
+}
+.box4{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px; 
+    margin: 10px;
+    box-shadow: 1px 8px 3px rgba(130, 130, 130, 0.35);
+    
+}
+input{
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 10px;
+    width: 95%;
+}
+h2{
+    font-size: 40px;
+    font-weight:bold;
+    color: white; 
+}
+.box1 p {
+    color: white;
+    font-size: 15px;
+}
+.box3 p{
+    color: white;
+    font-size: 13px;
+}
+.submit{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    box-shadow: 1px 8px 3px rgba(130, 130, 130, 0.35);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit:hover{
+    background-color: hsl(154, 100%, 65%);
+}
+.box4 p{
+    text-align: center;    
+    color: gray;
+    font-size: small;
+    
+}
+#terms{
+    color: red;
+    text-decoration: none;
+}
+::placeholder{
+    font-weight: bolder;
+}
+@media only screen and (max-width: 375px) {
+    .container{
+        display: block;
+        width: 100%;
+        margin-left: 17px;
+        text-align: center;
+        font-size: 8px;
+        box-sizing: border-box;
+        padding: 15px;
+        overflow-x: hidden;
+    }
+    .box1{
+        width: 90%;
+        font-size: 6px;
+        text-align: center;
+        /* padding: 0; */
+        margin-left: 17px;
+    }
+    .box3{
+        width: 90%;
+    }
+    .box4{
+        width: 90%;
+        margin-left: 0;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .box1 p{
+        font-size: 14px;
+    }
+    
+    /* .box1{
+        position: absolute;
+        left: 15px;
+        top: -5%;
+        margin: 0;
+        width: 90%;
+        z-index: 2;
+    }
+    .box3{
+        position: absolute;
+        left: 15px;
+        top: 67%;
+        margin: 0;
+        width: 90%;
+        z-index: 1;
+    }
+    .box4{
+        position: absolute;
+        left: 10px;
+        top: 77%;
+        margin-bottom: 20px;
+        padding: 20px;
+        width: 90%;
+    } */
+}
